@@ -1,6 +1,6 @@
 # legalizacja_www
 nowy system www
-System do obsługi wysyłkowej legalizacji małych (do 18 litrów) butli ciśneniowych. Musi być wielojęzyczny (na początek j.polski + j.angielski) - później rozbudujemy o kolejne (niemiecki, czeski, słowacki)
+System do obsługi wysyłkowej legalizacji małych (do 18 litrów) butli ciśneniowych. Musi być wielojęzyczny (na początek j.polski + j.angielski) - później rozbudujemy o kolejne (niemiecki, czeski, słowacki) oraz responsywny na PC, tablety, smartfony.
 Usługa polega na:
 1. odebraniu przez kuriera przygotowanej przez Klienta butli.
 2. dostarczeniu butli do naszego Zakładu Legalizacji (adres: ul. Wolności 98A; 43-229 Rudołtowice k. Pszczyny; Polska; tel: +48 885 155 303; e-mail: legalizacja@remgaz.com.pl; email supportu: support@remgaz.com.pl)
