@@ -1,0 +1,72 @@
+admin.txt
+
+
+Panel Administratora - Plan i Struktura
+Główne sekcje panelu:
+
+Dashboard - podsumowanie statystyk i aktualnych informacji
+Zamówienia - zarządzanie zamówieniami 
+Użytkownicy - zarządzanie użytkownikami (klienci, operatorzy, administratorzy)
+Usługi - zarządzanie dostępnymi usługami i cenami
+Rabaty - zarządzanie rabatami ilościowymi, oraz okresowymi promocjami (np. Promocja Wiosenna)
+Ustawienia - konfiguracja systemu
+Raporty - generowanie raportów biznesowych
+
+Parametry, które będą mogły być zmieniane w sekcji Ustawienia:
+1. Ustawienia Ogólne
+
+Nazwa firmy
+Logo (możliwość wgrania pliku w określonych rozmiarach)
+Adres firmy
+Numery telefonów (przynajmniej 2 telefony = a. Kontaktowy dla klientów, b. Serwisowy - zgłaszanie problemów) 
+Email kontaktowy
+Email z którego będą do Klientów wysyłane powiadomienia o zmianie statusu zamówienia)
+Waluta domyślna (Zł + Euro)
+Format daty (jeszcze nie wiem czy potrzebny?)
+
+2. Ustawienia Email (SMTP)
+
+Serwer SMTP
+Port SMTP
+Użytkownik SMTP
+Hasło SMTP
+Protokół bezpieczeństwa (None, SSL, TLS)
+Email nadawcy (From)
+Nazwa nadawcy
+
+3. Ustawienia Płatności
+
+Domyślna metoda płatności
+Status API integracji płatności
+Klucze API dla różnych bramek płatności (Stripe, PayPal, etc.)
+Stawka VAT
+
+4. Ustawienia Wysyłki
+
+Koszt wysyłki jednostkowy
+Firmy kurierskie
+Klucze API do integracji z kurierami
+Domyślny sposób wysyłki
+
+5. Ustawienia Powiadomień
+
+Szablony emaili (rejestracja, zmiana statusu zamówienia, reset hasła)
+Włączanie/wyłączanie powiadomień SMS
+Ustawienia powiadomień wewnętrznych
+
+Role użytkowników i ich uprawnienia:
+1. Administrator
+
+Pełny dostęp do wszystkich funkcji systemu
+Zarządzanie operatorami i ich uprawnieniami
+Modyfikacja ustawień systemu
+Dostęp do raportów finansowych
+Dodawanie/usuwanie administratorów
+
+2. Operator
+
+Zarządzanie zamówieniami (widok, edycja, zmiana statusu)
+Ograniczony dostęp do zarządzania użytkownikami (tylko klienci)
+Brak dostępu do krytycznych ustawień systemu
+Ograniczony dostęp do raportów (tylko operacyjne, nie finansowe)
+Możliwość dodawania nowych usług (ale bez usuwania istniejących)
