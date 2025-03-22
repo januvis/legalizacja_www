@@ -9,6 +9,10 @@ Usługa polega na:
 5. Systam musi zawierać:
    a. 3 logicznie spójne obszary robocze (Strona Główna, Strona Klienta (zalogowanego), Panel Admministratora (oraz jego okrojoną wersję - Panel Operatora)
    b. 3 podstawowe role userów: (Klient, Administrator, Operator)
+6. Systam będzie obsługiwał typowe systemy płatności (Blik, Przelew elektroniczny, przekaz pocztowy, PayPal) a także musi być przygotowane na integrację z systemem Stripe
+7. Wysyłki bedą realizowane za pomocą firmy kurierskiej lub systemu apaczka.pl poprzez integrację przez konkretne API.
+
+
 Konfiguracja Systamu (pełna) będzie się odbywała z poziomu Administratora.
 
 Opisy poszczególnych ról i sekcji w plikach:
